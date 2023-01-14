@@ -1,0 +1,14 @@
+doctype html
+html
+head
+    body
+        h1 #{temperature}
+
+        form(action='/submit' method='post')
+            label(for='location') Location:
+            input#location(type='text' name='location')
+
+            input(type='submit' value='Submit')
+        
+        
+        
